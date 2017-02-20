@@ -17,9 +17,9 @@ Your design must include:
 
 **Single Screen App : Farthest**
 
-An ipotetical web agency
+A hypothetical web agency
 
 -------------------------------------------------------------------------------
 
-![](https://github.com/maximilianventura/QuizApp/blob/master/DigErgoSum01s.jpg)
-![](https://github.com/maximilianventura/QuizApp/blob/master/DigErgoSum02s.jpg)
+![](https://github.com/maximilianventura/QuizApp/blob/master/SingleScreenApp.jpg)
+
