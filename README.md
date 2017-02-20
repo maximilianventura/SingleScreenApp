@@ -21,5 +21,5 @@ A hypothetical web agency
 
 -------------------------------------------------------------------------------
 
-![](https://github.com/maximilianventura/QuizApp/blob/master/SingleScreenApp.jpg)
+![](https://github.com/maximilianventura/SingleScreenApp/blob/master/SingleScreenApp.jpg)
 
