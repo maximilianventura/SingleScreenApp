@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.koala.singlescreenapp.MainActivity">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ImageView
+            android:id="@+id/background"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/back"
+            android:scaleType="centerCrop">
+        </ImageView>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:text="A digital agency focused on creating custom websites and mobile apps to grow brands online"
+            android:id="@+id/mission"
+            android:layout_width="match_parent"
+            android:paddingTop="12dp"
+            android:paddingRight="24dp"
+            android:paddingLeft="24dp"
+            android:textSize="22sp"
+            android:textColor="#333333"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="right" />
+
+        <TextView
+            android:text="farthest"
+            android:id="@+id/brand"
+            android:textColor="#ffffff"
+            android:textSize="48sp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"
+            android:gravity="center_vertical|center_horizontal"
+            android:paddingBottom="60dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="0.3">
+
+            <TextView
+            android:text="map"
+            android:textColor="#ffffff"
+            android:textSize="22sp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/map"
+            android:gravity="center_vertical|center_horizontal" />
+
+        <TextView
+            android:text="145 Plymouth St. Brooklyn, NY11201"
+            android:textColor="#ffffff"
+            android:textSize="22sp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:id="@+id/address"
+            android:gravity="left|center_vertical|center_horizontal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="0.3">
+
+            <TextView
+                android:text="phone"
+                android:id="@+id/phone"
+                android:textColor="#ffffff"
+                android:textSize="22sp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical|center_horizontal" />
+
+            <TextView
+                android:text="(123) 456-7890"
+                android:id="@+id/number"
+                android:textColor="#ffffff"
+                android:textSize="22sp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:gravity="left|center_vertical|center_horizontal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="0.3">
+
+            <TextView
+                android:text="email"
+                android:textColor="#ffffff"
+                android:id="@+id/email"
+                android:textSize="22sp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical|center_horizontal" />
+
+            <TextView
+                android:text="info@farthest.com"
+                android:id="@+id/mail"
+                android:textColor="#ffffff"
+                android:textSize="22sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="left|center_vertical|center_horizontal" />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</FrameLayout>
+
+
+
+
+
+
+
+
